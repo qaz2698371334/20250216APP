@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import matplotlib.pyplot as plt
 
 # Streamlit 用户界面
 st.title("基于机器学习的帕金森病检测系统")

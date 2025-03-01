@@ -4,27 +4,14 @@ import pandas as pd
 import joblib
 
 # Streamlit 用户界面
-st.markdown("""
-<style>
-    .custom-title {
-        font-size: 16px; 
-        font-family: 'Arial', sans-serif; 
-    }
-</style>
-""", unsafe_allow_html=True)
- 
-st.markdown("""
-<div class="custom-title">
-    基于机器学习的帕金森病检测系统
-</div>
-""", unsafe_allow_html=True)
- 
-# 创建输入框
-st.markdown("""
-<div class="custom-title">
-    请输入以下特征值：
-</div>
-""", unsafe_allow_html=True)
+st.markdown(
+    "<h1 style='font-size: 24px; font-family: 宋体; text-align: center;'>基于机器学习的帕金森病检测系统</h1>",
+    unsafe_allow_html=True
+)
+st.markdown(
+    "<h1 style='font-size: 24px; font-family: 宋体; '>请输入以下特征值：</h1>",
+    unsafe_allow_html=True
+)
 a = st.number_input("PPE", step=0.01,value=0.15)
 b = st.number_input("spread1",step=0.01,value=-6.18)
 c = st.number_input("MDVP:Fo(Hz)",step=0.01,value=171.04)

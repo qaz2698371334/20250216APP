@@ -5,11 +5,11 @@ import joblib
 
 # Streamlit 用户界面
 st.markdown(
-    "<h1 style='font-size: 10.5px; font-family: 宋体; text-align: center;'>基于机器学习的帕金森病检测系统</h1>",
+    "<h1 style='font-size: 16px; font-family: 宋体; text-align: center;'>基于机器学习的帕金森病检测系统</h1>",
     unsafe_allow_html=True
 )
 st.markdown(
-    "<h1 style='font-size: 10.5px; font-family: 宋体; '>请输入以下特征值：</h1>",
+    "<h1 style='font-size: 16px; font-family: 宋体; '>请输入以下特征值：</h1>",
     unsafe_allow_html=True
 )
 a = st.number_input("PPE", step=0.01,value=0.15)

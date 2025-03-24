@@ -13,13 +13,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
- 
-# 创建输入框
-st.markdown("""
-<div class="custom-title">
-    请输入以下特征值：
-</div>
-""", unsafe_allow_html=True)
 a = st.number_input("PPE", step=0.01,value=0.15)
 b = st.number_input("MDVP:Fo(Hz)",step=0.01,value=171.04)
 c = st.number_input("MDVP:Fhi(Hz)", step=0.01,value=208.31)
